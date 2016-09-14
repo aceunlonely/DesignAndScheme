@@ -1,0 +1,73 @@
+ {
+        "button": [
+            {
+                "name": "通关管家", 
+                "sub_button": [
+                    {
+                        "type": "view", 
+                        "name": "找报关", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "view", 
+                        "name": "找货代", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "view", 
+                        "name": "找咨询", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "view", 
+                        "name": "代办业务", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }
+                ]
+            }, 
+            {
+                "name": "业务委托", 
+                "sub_button": [
+                    {
+                        "type": "view", 
+                        "name": "发布信息", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "view", 
+                        "name": "在线咨询", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }
+                ]
+            }, 
+            {
+                "name": "政策资讯", 
+                "sub_button": [
+                    {
+                        "type": "view", 
+                        "name": "信息快报", 
+                        "url": "http://www.zhaobaoguan.com", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "view", 
+                        "name": "抽奖活动", 
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx74cb0cd59fe31d2f&redirect_uri=http%3A%2F%2Fwww.zhaobaoguan.com%2FActivity%2FLuckyWheel&response_type=code&scope=snsapi_userinfo&state=abc#wechat_redirect", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "关于我们", 
+                        "key": "AboutOus", 
+                        "sub_button": [ ]
+                    }
+                ]
+            }
+        ]
+    }

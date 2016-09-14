@@ -1,0 +1,12 @@
+初始化T_CMS_ACTIVITY 表时，需要修改以下数据
+
+START_DATE :为活动开始时间
+END_DATE : 为活动结束时间
+MAX_RATE : 为活动预计中奖概率  (该概率非常重要,  取值为 总奖品数 / 预期总得抽奖次数)
+
+初始化T_CMS_ACTIVITY_AWARD 
+DEGREE  为中奖等级 ，与前台显示相一致
+REMARK  只是说明，没有实际用途
+BATCH   批次号，与T_CMS_ACTIVITY批次对应
+MAX_COUNT  总得奖数量
+LEFT_COUNT  剩余奖数量
