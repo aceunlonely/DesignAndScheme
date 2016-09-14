@@ -1,0 +1,11 @@
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\FastDFSTestTool.exe.config
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\readMe.txt
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\log4net.config
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\FastDFSTestTool.exe
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\FastDFSTestTool.pdb
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\FastDFS.dll
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\log4net.dll
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\bin\Debug\FastDFS.pdb
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\obj\Debug\FastDFSTestTool.csprojResolveAssemblyReference.cache
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\obj\Debug\FastDFSTestTool.exe
+F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFSTestTool\obj\Debug\FastDFSTestTool.pdb

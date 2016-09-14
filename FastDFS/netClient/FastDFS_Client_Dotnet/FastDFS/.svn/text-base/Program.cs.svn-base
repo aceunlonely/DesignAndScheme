@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Net;
+using System.IO;
+using FastDFS.Client;
+using System.Threading;
+namespace FastDFS
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //===========================Initial========================================
+            List<IPEndPoint> trackerIPs = new List<IPEndPoint>();
+            IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("192.168.50.120"),22122);
+            trackerIPs.Add(endPoint);
+            ConnectionManager.Initialize(trackerIPs);
+            StorageNode node = FastDFSClient.GetStorageNode("group1");
+            //===========================UploadFile=====================================
+            byte[] content = null;
+            if (File.Exists(@"D:\FDFSTest.txt"))
+            {
+                FileStream streamUpload = new FileStream(@"D:\FDFSTest.txt",FileMode.Open);
+                using (BinaryReader reader = new BinaryReader(streamUpload))
+                {
+                    content = reader.ReadBytes((int)streamUpload.Length);
+                }
+            }
+            string fileName = FastDFSClient.UploadAppenderFile(node, content, "txt");
+            //===========================QueryFile=======================================
+            
+            FDFSFileInfo fileInfo = FastDFSClient.GetFileInfo(node, fileName);
+            Console.WriteLine(string.Format("FileName:{0}",fileName));
+            Console.WriteLine(string.Format("FileSize:{0}", fileInfo.FileSize));
+            Console.WriteLine(string.Format("CreateTime:{0}", fileInfo.CreateTime));
+            Console.WriteLine(string.Format("Crc32:{0}", fileInfo.Crc32));
+            //==========================AppendFile=======================================
+            FastDFSClient.AppendFile("group1", fileName, content);
+            FastDFSClient.AppendFile("group1", fileName, content);
+
+            //===========================DownloadFile====================================
+            byte[] buffer = FastDFSClient.DownloadFile(node, fileName, 2L,5L);
+            if(File.Exists(@"D:\wKgygE3yMkq0vSwaAAAABrdUwZ4420.txt"))
+                File.Delete(@"D:\wKgygE3yMkq0vSwaAAAABrdUwZ4420.txt");
+            FileStream stream = new FileStream(@"D:\wKgygE3yMkq0vSwaAAAABrdUwZ4420.txt",FileMode.CreateNew);
+            using (BinaryWriter write = new BinaryWriter(stream))
+            {
+                write.Write(buffer);
+            }
+            //===========================RemoveFile=======================================
+            FastDFSClient.RemoveFile("group1", fileName);
+            
+            Console.WriteLine("Complete");
+            Console.Read();
+        }
+    }
+}

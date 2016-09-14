@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS
+END
+FastDFS.suo
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/repos/!svn/ver/8427/camel/src/common/FastDFS/FastDFS.suo
+END
+FastDFS.sln
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/FastDFS.sln
+END
+FastDFS.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/FastDFS.csproj.user
+END
+FastDFS.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/FastDFS.csproj
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/repos/!svn/ver/8427/camel/src/common/FastDFS/Program.cs
+END
+FastDFSClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/repos/!svn/ver/8427/camel/src/common/FastDFS/FastDFSClient.cs
+END

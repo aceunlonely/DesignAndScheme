@@ -1,0 +1,17 @@
+K 13
+bugtraq:label
+V 5
+BugID
+K 15
+bugtraq:message
+V 14
+Issue: %BUGID%
+K 11
+bugtraq:url
+V 103
+https://osavtfs.benywave.cn:8443/tfs/web/wi.aspx?pcguid=9dc4dd72-b86e-47fe-93f5-c7dda4c46027&id=%BUGID%
+K 15
+tsvn:logminsize
+V 1
+8
+END

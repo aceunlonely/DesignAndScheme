@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Storage
+END
+SET_METADATA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Storage/SET_METADATA.cs
+END
+UPLOAD_SLAVE_FILE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Storage/UPLOAD_SLAVE_FILE.cs
+END
+GET_METADATA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Storage/GET_METADATA.cs
+END
+QUERY_FILE_INFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Storage/QUERY_FILE_INFO.cs
+END
+DELETE_FILE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Storage/DELETE_FILE.cs
+END
+UPLOAD_FILE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Storage/UPLOAD_FILE.cs
+END
+DOWNLOAD_FILE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Storage/DOWNLOAD_FILE.cs
+END
+APPEND_FILE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Storage/APPEND_FILE.cs
+END
+UPLOAD_APPEND_FILE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Storage/UPLOAD_APPEND_FILE.cs
+END

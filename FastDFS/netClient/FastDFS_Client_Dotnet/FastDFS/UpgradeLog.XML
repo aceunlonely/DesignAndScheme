@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FastDFS">
+</Property><Property Name="解决方案文件" Value="F:\学习资料\数据库\方案\FastDFS\FastDFS\FastDFS.sln">
+</Property><Property Name="Date" Value="2012年4月26日">
+</Property><Property Name="Time" Value="14:37:15">
+</Property></Properties><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\FastDFS.Client.csproj" Description="项目文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\FastDFS.Client.csproj">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\FastDFS.Client.csproj.user" Description="项目用户文件成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\FastDFS.Client.csproj.user">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\HeaderInfo.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\HeaderInfo.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\NameValuePair.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\NameValuePair.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\PackageInfo.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\PackageInfo.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\Protocol.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\Protocol.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\StorageClient.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\StorageClient.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\StorageServerInfo.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\StorageServerInfo.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\TcpConnection.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\TcpConnection.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\TcpConnectionPoolManager.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\TcpConnectionPoolManager.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\TrackerClient.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\TrackerClient.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\Util.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\Util.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Core\ConfigReader.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Core\ConfigReader.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Core\Pool\IObjectPool.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Core\Pool\IObjectPool.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Core\Pool\IPoolableObjectFactory.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Core\Pool\IPoolableObjectFactory.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Core\Pool\Support\ObjectPool.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Core\Pool\Support\ObjectPool.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Core\Threading\ThreadContext.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Core\Threading\ThreadContext.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Service\FastDFSClient.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Service\FastDFSClient.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Service\FastDFSService.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Service\FastDFSService.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Component\TcpConnectionFactory.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Component\TcpConnectionFactory.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\Core\FastDFS.config" Description="文件已成功备份为 F:\学习资料\数据库\方案\FastDFS\FastDFS\Backup\Core\FastDFS.config">
+</Event><Event ErrorLevel="1" Project="FastDFS.Client" Source="..\FastDFS.Client\FastDFS.Client.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\FastDFS.Client.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="FastDFS.Client" Source="..\FastDFS.Client\FastDFS.Client.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FastDFS.Client" Source="..\FastDFS.Client\FastDFS.Client.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

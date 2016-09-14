@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Common
+END
+FDFSHeader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Common/FDFSHeader.cs
+END
+FDFSRequest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Common/FDFSRequest.cs
+END
+Util.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Common/Util.cs
+END
+Connection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Common/Connection.cs
+END
+FDFSException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Common/FDFSException.cs
+END
+FDFSConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/!svn/ver/5185/camel/src/common/FastDFS/Common/FDFSConfig.cs
+END
+Consts.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/repos/!svn/ver/8422/camel/src/common/FastDFS/Common/Consts.cs
+END
+ConnectionManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/8427/camel/src/common/FastDFS/Common/ConnectionManager.cs
+END

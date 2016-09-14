@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace FastDFS.Client.Storage
+{
+    /// <summary>
+    /// upload slave file to storage server
+    /// 
+    /// Reqeust 
+    ///     Cmd: STORAGE_PROTO_CMD_UPLOAD_SLAVE_FILE 21
+    ///     Body:
+    ///     @ FDFS_PROTO_PKG_LEN_SIZE bytes: master filename length
+    ///     @ FDFS_PROTO_PKG_LEN_SIZE bytes: file size
+    ///     @ FDFS_FILE_PREFIX_MAX_LEN bytes: filename prefix
+    ///     @ FDFS_FILE_EXT_NAME_MAX_LEN bytes: file ext name, do not include dot (.)
+    ///     @ master filename bytes: master filename
+    ///     @ file size bytes: file content
+    /// Response
+    ///     Cmd: STORAGE_PROTO_CMD_RESP
+    ///     Status: 0 right other wrong
+    ///     Body: 
+    ///     @ FDFS_GROUP_NAME_MAX_LEN bytes: group name
+    ///     @ filename bytes: filename
+    /// </summary>
+    public class UPLOAD_SLAVE_FILE : FDFSRequest
+    {
+        private UPLOAD_SLAVE_FILE()
+        {
+             
+        }
+    }
+}

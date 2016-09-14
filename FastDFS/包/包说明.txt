@@ -1,0 +1,8 @@
+FastDFS_Client_Dotnet.rar  FastDfs .net 客户端
+FastDFS_v4.05.tar.gz  FastDfs 主程序源码4.05
+fastdfs-nginx-module_v1.15.tar.gz FastDfs storage服务器 http nginx插件
+G_success.jpg  测试用的图片
+keepalived-1.2.22.tar.gz   fastDfs tracker 负载均衡服务器 HA使用的组件
+nginx-1.8.1.tar.gz   nginx 源码
+ngx_cache_purge-2.3.tar.gz  nginx 缓存插件
+
