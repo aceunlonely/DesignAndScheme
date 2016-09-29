@@ -1,5 +1,0 @@
-F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFS\bin\Debug\FastDFS.dll
-F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFS\bin\Debug\FastDFS.pdb
-F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFS\obj\x86\Debug\FastDFS.csprojResolveAssemblyReference.cache
-F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFS\obj\x86\Debug\FastDFS.dll
-F:\cSharpCollection\DesignAndScheme\FastDFS\netClient\FastDFS_Client_Dotnet\FastDFS\obj\x86\Debug\FastDFS.pdb
