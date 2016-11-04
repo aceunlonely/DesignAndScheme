@@ -1,0 +1,12 @@
+运行环境配置机器
+192.168.0.161  A
+192.168.0.162  B
+
+用户 root 密码 000000
+虚拟ip
+192.168.0.160
+
+2台机器均部署nginx fastDfs服务、nginx反向代理、tracker、storage、keepalived
+A机器是 keepalived master机
+
+其他基本配置参考文档
