@@ -140,6 +140,7 @@ namespace FastDFS.Client
             //Pool pool = trackerPools[listTrackers[index]];
             Pool pool = null;
             listWorkTrackers.AddRange(listBusyTrackers);
+            listBusyTrackers.Clear();
             while (listWorkTrackers.Count > 0)
             {
                 //取第一个tracker
