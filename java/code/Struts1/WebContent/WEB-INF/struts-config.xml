@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+  		<form-bean name="userForm" type="com.jumpig.struts.form.UserForm"/>
+  		
+  		<form-bean name="lazyForm" type="org.apache.struts.validator.LazyValidatorForm"/>  
+	</form-beans>
+	
+	<action-mappings>
+ 		<action path="/login" name="userForm" type="com.jumpig.struts.web.LoginAction">
+			<forward name="fail" path="/fail.jsp"/>
+			<forward name="success" path="/success.jsp"/>
+		</action>
+		<action path="/lazy" name="lazyForm" type="com.jumpig.struts.web.LazyAction">
+			<forward name="fail" path="/fail.jsp"/>
+			<forward name="success" path="/success.jsp"/>
+		</action>
+	</action-mappings>
+	<message-resources parameter="ApplicationResources" />
+	
+	<!--  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames" value="/WEB-INF/validator-rules.xml"/>
+	</plug-in>-->
+</struts-config>
