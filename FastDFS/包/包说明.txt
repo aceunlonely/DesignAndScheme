@@ -6,3 +6,4 @@ keepalived-1.2.22.tar.gz   fastDfs tracker 负载均衡服务器 HA使用的组件
 nginx-1.8.1.tar.gz   nginx 源码
 ngx_cache_purge-2.3.tar.gz  nginx 缓存插件
 
+nginx-1.10.3   支持tcp负载均衡
