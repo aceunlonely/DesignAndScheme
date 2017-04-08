@@ -1,0 +1,21 @@
+假设 下载文件时需要将txt文件指定为 测试文件.txt
+则后面跟
+http192.168.18.2448080group1M0000000g6GT1H40jmAZJeWAAAACJr7psA954_big.txtfilename=测试文件.txt
+ 
+WARN 可能会出现的问题.
+   当下载的URL太长, 超过256时, 下载附件会抛出400错误. 跟踪nginx 错误日志得知.
+ 
+fastdfs_nginx模块. src下 common.c 第615行到622行
+ 
+Common.c代码  收藏代码
+if (uri_len + 1 = (int)sizeof(uri))  
+{  
+    logError(file __FILE__, line %d,    
+        uri length %d is too long, = %d, __LINE__,   
+        uri_len, (int)sizeof(uri));  
+    OUTPUT_HEADERS(pContext, (&response), HTTP_BADREQUEST)  
+    return HTTP_BADREQUEST;  
+}  
+ 
+ 将其删掉. 重新编译,并安装. 重启nginx. 
+汉字可以扩展到35个汉字.  若超出, 会导致文件下载不完整. 具体原因待查.
