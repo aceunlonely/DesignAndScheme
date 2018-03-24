@@ -1,0 +1,2 @@
+1.mib.pdf：常用的MIB OID文档
+2.H3C_MSR(V7)常用MIB清单：H3C的官方MIB文档
